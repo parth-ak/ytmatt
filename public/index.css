@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+html{
+    font-size: 100%;
+}
+
+body{
+    max-width: 900px;
+    margin: 10vmin auto;
+    padding: 0 2rem;
+    background-color: #15171a;
+    line-height: 2rem;
+    color: #eee;
+    overflow-x: hidden;
+}
+
+body > * + * {
+    margin-top: 10vmin;
+}
+
+.section-title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.input:focus,
+.btn:focus{
+    box-shadow: 0 0 0 1px #15171a,
+                0 0 0 4px #002f4e;
+}
+
+.input{
+    background-color: #1e2125;
+    border-radius: 4px;
+    height: 2.6em;
+    padding: 0 .9em;
+}
+.btn{
+    background-color: #0099ff;
+    border-radius: 4px;
+    height: 2.6em;
+    padding: 0 .8em;
+}
+
+.btn:hover{
+    background-color: #0084d8;
+}
+
+.btn:active{
+    background-color: #0475bf;
+}
+
+.video-thumbnail{
+    max-width: 250px;
+    width: 35vw;
+    border-radius: 4px;
+}
+
+.custom-radio input{
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+}
+
+.custom-radio-btn{
+    cursor: pointer;
+    background-color: #1e2125;
+    border-radius: 4px;
+    padding: .4em .8em;
+}
+
+.custom-radio-btn:hover{
+    background-color: #22252a;   
+}
+
+input:checked + .custom-radio-btn{
+    background-color: #0099ff;
+}
+input:checked + .custom-radio-btn:hover{
+    background-color: #0084d8;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+.flex-1{
+    flex: 1;
+}
+
+.gap-10{
+    gap: 1rem;
+}
+
+.mr-10{
+    margin-right: 1rem;
+}
+.mr-20{
+    margin-right: 2rem;
+}
+.mr-10{
+    margin-bottom   : 1rem;
+}
+
+.small-text{
+    font-size: 1.4rem;
+}
+
+.rounded{
+    border-radius: 9999px;
+}
+
+.ai-start{
+    align-items: flex-start;
+}
+
+.border{
+    display: block;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    /* height: 195px; 
+    width: 840px; */
+    box-shadow: 0px -8px 50px #000;
+    border: 3px solid #fff;
+}
+.t1{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    opacity: 0.5;
+    margin: -70px 0 0 -20px;
+}
+footer{
+    margin-top: 170px;
+    display: block;
+    margin-left: -350px;
+    padding-left:75% ;
+    height: 100px;
+    width: 1537px;
+    background: #33363a;
+    box-shadow: 0px -8px 50px #000;
+}
+h1{
+    display: block;
+    margin-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large;
+
+}
+.vv{
+    margin-top: 100px;
+}
+
+/* counter part */
+.conte{
+    display: block;
+    
+    margin-left: 30%;
+    margin-bottom: -30px;
+    /* background: #002f4e; */
+    width: 337px;
+    height: 105px;
+    padding: 5px;
+    padding-left: 12px;
+}
+.tit{
+    font-family:'Righteous', cursive;
+    font-size: 30px;
+    color:#0099ff;
+}
+.tit-1{
+    display: block;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color:#0099ff;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+.tit-2{
+    font-family: 'Righteous', cursive;
+   margin-bottom: 10px;
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
+    /* margin-left: 43%; */
+}
+
+.glow {
+    color: #fff;
+    /* text-align: center; */
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e6de, 0 0 40px #00e6de, 0 0 50px #00e6de, 0 0 60px #00e6de, 0 0 70px #00e6de;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #00e6de, 0 0 40px #00e6de, 0 0 50px #00e6de, 0 0 60px #00e6de, 0 0 70px #00e6de, 0 0 80px #00e6de;
+    }
+  }
