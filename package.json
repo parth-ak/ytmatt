@@ -13,7 +13,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "node": "^16.12.1",
+    "ci": "^2.2.0",
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
@@ -24,6 +24,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "git": "^0.1.5",
     "lodash": "^4.17.21",
+    "node": "^16.12.1",
     "sanitize-filename": "^1.6.3",
     "ytdl-core": "^4.11.0"
   }
